@@ -10,11 +10,11 @@
 
 <body>
     <div class="titulo">
-        <img class="img_subtitulo" src="assets/coração.jpg" alt="">
+        <img class="img_subtitulo" src="assets/snauge.png" alt="">
 
         <h2>Formulário de Doação de Sangue</h2>
 
-        <img class="img_subtitulo" src="assets/coração.jpg" alt="">
+        <img class="img_subtitulo" src="assets/snauge.png" alt="">
     </div>
 
 
@@ -32,6 +32,41 @@
             <input type="number" id="idade" placeholder="16" required>
             <br>
             <br>
-</body>
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" placeholder="Digite seu peso" required>
+            <br>
+            <br>
+            <label for="sangue">Tipo sanguíneo:</label>
+            <select name="sangue" : id="sangue">
+                <option value="selecione"> Selecione</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <br>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="number" id="telefone" placeholder="47999999999" required>
+            <br>
+            <br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" placeholder="Digite sua Cidade">
+            <br>
+            <br>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" placeholder="Digite seu estado">
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
 
+
+        </form>
+        <script src="doacao.js"></script>
+    </div>
+</body>
 </html>
